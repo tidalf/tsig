@@ -1,4 +1,4 @@
-// +build !windows,!apcera
+// +build !windows
 
 package gss
 
@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bodgit/tsig"
+	"github.com/tidalf/tsig"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"
 	"gopkg.in/jcmturner/gokrb5.v7/client"

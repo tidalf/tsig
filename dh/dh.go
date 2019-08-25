@@ -8,7 +8,7 @@ Example client:
                 "net"
                 "time"
 
-                "github.com/bodgit/tsig/dh"
+                "github.com/tidalf/tsig/dh"
                 "github.com/miekg/dns"
         )
 
@@ -76,7 +76,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bodgit/tsig"
+	"github.com/tidalf/tsig"
 	"github.com/enceve/crypto/dh"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"

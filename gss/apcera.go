@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apcera/gssapi"
-	"github.com/bodgit/tsig"
+	"github.com/tidalf/gssapi"
+	"github.com/tidalf/tsig"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"
 )

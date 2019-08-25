@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	c "github.com/bodgit/tsig/client"
+	c "github.com/tidalf/tsig/client"
 	"github.com/miekg/dns"
 )
 

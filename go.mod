@@ -1,8 +1,7 @@
-module github.com/bodgit/tsig
+module github.com/tidalf/tsig
 
 require (
 	github.com/alexbrainman/sspi v0.0.0-20180613141037-e580b900e9f5
-	github.com/tidalf/gssapi v0.0.0-20161010215902-5fb4217df13b
 	github.com/enceve/crypto v0.0.0-20160707101852-34d48bb93815
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/hashicorp/go-uuid v1.0.1 // indirect

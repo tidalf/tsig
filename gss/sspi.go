@@ -10,7 +10,7 @@ import (
 
 	"github.com/alexbrainman/sspi"
 	"github.com/alexbrainman/sspi/negotiate"
-	"github.com/bodgit/tsig"
+	"github.com/tidalf/tsig"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"
 )
